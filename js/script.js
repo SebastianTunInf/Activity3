@@ -35,6 +35,18 @@ console.log ('yes' == 'no')
 4 == '4' //true
 4 === '4' //false
 
+console.log(4 > 3) //true
+console.log(4 >= 3) //true
+console.log(4 < 3) //false
+console.log(4 <= 3) //false
+console.log(4 == 4) //true
+console.log(4 === 4) //true
+console.log(4 != 4) //false
+console.log(4 !== 4) //false
+console.log(4 != '4') //false
+console.log(4 == '4') //true    
+console.log(4 === '4') //false
+
 const time = new Date()
 console.log ('The year is ' + time.getFullYear())
 console.log ('The month today is ' + time.getMonth())
